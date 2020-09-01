@@ -1,21 +1,20 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-.tricolors {
-    color: #f7f5ee;
-}
 .navbar {
     background-color: #1a7555 !important;
+    color: white;
 }
 
 a.navbar-brand {
     white-space: normal;
     text-align: center;
     word-break: break-all;
+    color: white;
 }
 
 .collapsible {
-    background-color: #777;
+    background-color: #1a7555;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -27,14 +26,14 @@ a.navbar-brand {
 }
 
 .active, .collapsible:hover {
-    background-color: #555;
+    background-color: #468F74;
 }
 
 .subcontent {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #f7f5ee;
 }
 
 /* Provide sufficient contrast against white background */
