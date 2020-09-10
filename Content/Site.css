@@ -1,0 +1,65 @@
+﻿.navbar {
+    background-color: #1a7555 !important;
+    color: white;
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    color: white;
+}
+
+.collapsible {
+    background-color: #1a7555;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+}
+
+.active, .collapsible:hover {
+    background-color: #468F74;
+}
+
+.subcontent {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f7f5ee;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
