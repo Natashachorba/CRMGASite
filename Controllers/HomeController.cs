@@ -1,67 +1,51 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using CRM_SITE.Models;
+using System.Web;
+using System.Web.Mvc;
 
-namespace CRM_SITE.Controllers
+namespace CRMGASite.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
-
-        public IActionResult Index()
+        public ActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        public ActionResult Background()
         {
             return View();
         }
 
-        public IActionResult Background()
+        public ActionResult Concepts()
         {
             return View();
         }
 
-        public IActionResult Description()
+        public ActionResult Description()
         {
             return View();
         }
 
-        public IActionResult Training()
+        public ActionResult Training()
         {
             return View();
         }
 
-        public IActionResult Research()
+        public ActionResult Research()
         {
             return View();
         }
 
-        public IActionResult Partnerships()
+        public ActionResult Partnerships()
         {
             return View();
         }
 
-        public IActionResult ContactUs()
+        public ActionResult ContactUs()
         {
             return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
