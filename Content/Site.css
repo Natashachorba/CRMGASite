@@ -44,6 +44,22 @@ body {
     border-color: #1861ac;
 }
 
+#taughtList ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#taughtList li {
+    border-bottom: 1px solid #ccc;
+}
+
+#taughtList li:last-child {
+    border: none;
+    padding-bottom: 20px;
+}
+
+
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
