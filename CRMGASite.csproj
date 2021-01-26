@@ -139,6 +139,7 @@
     <Content Include="Images\DuvaIngridThumb.jpg" />
     <Content Include="Images\happyTree.png" />
     <Content Include="Images\happyTreeB.png" />
+    <Content Include="Images\happyTreeNOTM.png" />
     <Content Include="Images\happyworldlogo.jpg" />
     <Content Include="Images\highZone.png" />
     <Content Include="Images\JordanMurphy.jpg" />
