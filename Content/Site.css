@@ -1,15 +1,36 @@
-﻿.navbar {
-    background-color: #1a7555 !important;
+﻿/*nav stuff*/
+#main-nav {
+    background-color: #1a7555;
+    font-size: 20px;
+}
+
+#main-nav a{
     color: white;
+}
+
+#main-nav a:hover {
+    color: black;
+    background-color: #468F74;
+}
+
+#main-nav .active {
+    background-color: #468F74;
 }
 
 a.navbar-brand {
     white-space: normal;
     text-align: center;
     word-break: break-all;
-    color: white;
+    font-size: 24px;
 }
 
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/*collapsible list stuff*/
 .collapsible {
     background-color: #1a7555;
     color: white;
@@ -33,17 +54,6 @@ a.navbar-brand {
     background-color: #f7f5ee;
 }
 
-body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;
-}
-
 #taughtList ul {
     list-style-type: none;
     margin: 0;
@@ -59,12 +69,17 @@ body {
     padding-bottom: 20px;
 }
 
-
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+/*other shit*/
 
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
@@ -72,7 +87,6 @@ body {
 .dl-horizontal dt {
     white-space: normal;
 }
-
 /* Set width on the form input elements since they're 100% wide by default */
 input,
 select,
