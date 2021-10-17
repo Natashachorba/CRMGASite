@@ -54,6 +54,12 @@ a.navbar-brand {
     background-color: #f7f5ee;
 }
 
+#traumaList {
+    text-align: left;
+    padding-left: 0pt;
+    display: inline-block;
+}
+
 #taughtList ul {
     list-style-type: none;
     margin: 0;
@@ -86,6 +92,10 @@ body {
 */
 .dl-horizontal dt {
     white-space: normal;
+}
+
+.pictureWithSpace {
+    padding-top:20px;
 }
 /* Set width on the form input elements since they're 100% wide by default */
 input,
